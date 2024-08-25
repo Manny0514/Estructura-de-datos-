@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras de Datos y Algoritmos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Estructuras de Datos y Algoritmos</h1>
+        <p>¡Excelente estructura para un curso de Estructuras de Datos y Algoritmos! Esta propuesta cubre de manera muy completa y organizada los temas fundamentales de esta área de la informática. La progresión de los temas, desde las estructuras de datos más básicas hasta los algoritmos más avanzados, es lógica y permite una comprensión gradual de los conceptos.</p>
+        <p>¡Profundicemos en cada punto para asegurarnos de que quede todo claro!</p>
+        
+        <h2>Estructuras de Datos</h2>
+        <h3>Arrays</h3>
+        <ul>
+            <li><strong>Definición:</strong> Colecciones ordenadas de elementos del mismo tipo, accedidos a través de un índice numérico.</li>
+            <li><strong>Características:</strong> Tamaño fijo, acceso directo a elementos, pero inserción y eliminación pueden ser costosas en el medio del arreglo.</li>
+            <li><strong>Operaciones:</strong> Acceso aleatorio, inserción al final (amortiguada), eliminación (shift de elementos).</li>
+            <li><strong>Multidimensionales:</strong> Representación de matrices o tablas, acceso a elementos mediante múltiples índices.</li>
+        </ul>
+
+        <h3>Listas Enlazadas</h3>
+        <ul>
+            <li><strong>Simples:</strong> Cada elemento (nodo) apunta al siguiente, flexible en tamaño, pero acceso secuencial.</li>
+            <li><strong>Doblemente enlazadas:</strong> Cada nodo apunta al anterior y al siguiente, permite recorrer la lista en ambas direcciones.</li>
+            <li><strong>Circularmente enlazadas:</strong> El último nodo apunta al primero, útil para representar estructuras cíclicas.</li>
+            <li><strong>Operaciones:</strong> Inserción y eliminación en cualquier posición, búsqueda secuencial.</li>
+        </ul>
+
+        <h3>Pilas</h3>
+        <ul>
+            <li><strong>LIFO:</strong> El último elemento en entrar es el primero en salir.</li>
+            <li><strong>Operaciones:</strong> push (agregar), pop (eliminar), peek (ver el elemento superior).</li>
+            <li><strong>Implementación:</strong> Usando arreglos (fijo) o listas enlazadas (dinámico).</li>
+        </ul>
+
+        <h3>Colas</h3>
+        <ul>
+            <li><strong>FIFO:</strong> El primer elemento en entrar es el primero en salir.</li>
+            <li><strong>Simples:</strong> Un frente y una cola, inserción al final, eliminación del frente.</li>
+            <li><strong>Circulares:</strong> Reutilización del espacio al llegar al final del arreglo.</li>
+            <li><strong>Prioridad:</strong> Elementos ordenados por una clave de prioridad.</li>
+            <li><strong>Operaciones:</strong> enqueue (agregar), dequeue (eliminar), front (ver el elemento frontal).</li>
+        </ul>
+
+        <h3>Árboles</h3>
+        <ul>
+            <li><strong>Binarios:</strong> Cada nodo tiene a lo sumo dos hijos (izquierdo y derecho).</li>
+            <li><strong>BST:</strong> Los valores de los nodos izquierdos son menores y los de los derechos mayores.</li>
+            <li><strong>AVL:</strong> BST autobalanceado para garantizar un tiempo de búsqueda logarítmico.</li>
+            <li><strong>B:</strong> Árboles utilizados en bases de datos para almacenar grandes cantidades de datos en disco.</li>
+            <li><strong>N-ario:</strong> Cada nodo puede tener más de dos hijos.</li>
+            <li><strong>Operaciones:</strong> Inserción, eliminación, recorridos (inorden, preorden, postorden).</li>
+        </ul>
+
+        <h3>Grafos</h3>
+        <ul>
+            <li><strong>Representación:</strong> Matriz de adyacencia (booleano o ponderado), lista de adyacencia.</li>
+            <li><strong>Tipos:</strong> Dirigidos (aristas con dirección), no dirigidos (aristas sin dirección), ponderados (aristas con peso).</li>
+            <li><strong>Algoritmos:</strong> BFS (explora vecinos antes de profundizar), DFS (explora lo más profundo posible), Dijkstra (camino más corto en grafos ponderados no negativos), Bellman-Ford (camino más corto permitiendo pesos negativos), Floyd-Warshall (todos los pares más cortos), Kruskal y Prim (árboles de expansión mínima).</li>
+        </ul>
+
+        <h3>Tablas Hash</h3>
+        <ul>
+            <li><strong>Función hash:</strong> Mapea claves a índices en un arreglo.</li>
+            <li><strong>Colisiones:</strong> Cuando dos claves diferentes generan el mismo índice.</li>
+            <li><strong>Manejo de colisiones:</strong> Encadenamiento (lista enlazada en cada celda), direccionamiento abierto (buscar la siguiente celda disponible).</li>
+            <li><strong>Operaciones:</strong> Inserción, búsqueda, eliminación (en tiempo constante promedio).</li>
+        </ul>
+
+        <h2>Algoritmos</h2>
+        <ul>
+            <li><strong>Ordenación:</strong> Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Merge Sort, Heap Sort.</li>
+            <li><strong>Búsqueda:</strong> Lineal, binaria, DFS, BFS.</li>
+            <li><strong>Grafos:</strong> Dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal, Prim.</li>
+            <li><strong>Programación Dinámica:</strong> Mochila, Fibonacci, cadena de matrices, memoización, tabulación.</li>
+            <li><strong>Divide y Vencerás:</strong> Merge Sort, Quick Sort, búsqueda binaria.</li>
+            <li><strong>Complejidad Computacional:</strong> Notación Big O, análisis de tiempo y espacio, casos promedio, mejor y peor caso.</li>
+            <li><strong>Optimización:</strong> Técnicas para mejorar la eficiencia, poda alfa-beta.</li>
+        </ul>
+    </div>
+</body>
+</html>
